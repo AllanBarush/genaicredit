@@ -71,7 +71,21 @@ footer a{color:var(--acc);text-decoration:none}
 .tem-meta ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
 .tem-meta li{padding-left:14px;position:relative}
 .tem-meta li:before{content:"\00b7";position:absolute;left:1px;color:var(--accB);font-weight:700}
-</style></head><body>
+</style>
+<style id="cco-curso-sep26">
+.cc-sec{padding:clamp(3rem,6vw,5rem) 0;border-top:1px solid var(--rule)}
+.cc-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:clamp(28px,4vw,54px);align-items:start}
+@media(max-width:860px){.cc-grid{grid-template-columns:1fr}}
+.cc-h{font-family:'Poppins',Arial,sans-serif;font-weight:700;font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--acc);margin:0 0 14px}
+.cc-li{list-style:none;padding:0;margin:0}
+.cc-li li{font-family:'Lora',Georgia,serif;font-size:15.5px;line-height:1.7;color:var(--ink);padding:11px 0 11px 26px;position:relative;border-bottom:1px solid var(--rule)}
+.cc-li li:before{content:"";position:absolute;left:0;top:21px;width:13px;height:1px;background:var(--acc)}
+.cc-li li:last-child{border-bottom:none}
+.cc-p{font-family:'Lora',Georgia,serif;font-size:16px;line-height:1.75;color:var(--ink);margin:0}
+.cc-card{background:var(--card);border:1px solid var(--rule);border-radius:12px;padding:clamp(22px,3vw,32px)}
+.cc-obj{font-family:'Poppins',Arial,sans-serif;font-weight:700;font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--acc);display:block;margin-bottom:10px}
+</style>
+</head><body>
 
 <header class="hero">
  <div class="serie">RiskMathics Financial Institute · Curso Ejecutivo</div>
@@ -90,7 +104,7 @@ footer a{color:var(--acc);text-decoration:none}
 <section class="sec" id="temario"><div class="wrap">
  <div class="kicker">Contenido del programa</div>
  <h2 class="sec-title">Qué dominarás, sesión por sesión.</h2>
- <p class="sec-sub">Dominar las tecnologías que están transformando el crédito: AI/ML avanzado, GenAI (LLMs) y agentes, real-time decisioning y blockchain: y sobre todo su gobernanza (model risk) para adoptarlas sin crear riesgo oculto.</p>
+ <p class="sec-sub"><span class="cc-obj">Objetivo de aprendizaje</span>Dominar las tecnologías que están transformando el crédito: AI/ML avanzado, GenAI (LLMs) y agentes, real-time decisioning y blockchain: y sobre todo su gobernanza (model risk) para adoptarlas sin crear riesgo oculto.</p>
  <div class="tem-grid">
   <div><h3 class="tem-h">Sesiones</h3>
    <ol class="tem-sem"><li><span class="tw">S1</span><span><span class="tem-st">AI / ML avanzado en crédito</span><ul class="tem-sub"><li>Estado del arte; dónde agrega valor real.</li></ul></span></li><li><span class="tw">S2</span><span><span class="tem-st">GenAI, LLMs y agentes</span><ul class="tem-sub"><li>Casos de uso (documentos, decisiones asistidas, agentes) y límites.</li></ul></span></li><li><span class="tw">S3</span><span><span class="tem-st">Real-time decisioning</span><ul class="tem-sub"><li>Arquitectura de decisión en tiempo real; feature stores.</li></ul></span></li><li><span class="tw">S4</span><span><span class="tem-st">Blockchain y activos digitales</span><ul class="tem-sub"><li>Blockchain, tokenización y su relevancia realista para crédito.</li></ul></span></li><li><span class="tw">S5</span><span><span class="tem-st">Model governance de IA</span><ul class="tem-sub"><li>SR 11-7 aplicado a ML/GenAI, explicabilidad y monitoreo de drift.</li></ul></span></li><li><span class="tw">S6</span><span><span class="tem-st">Riesgo, ética y taller</span><ul class="tem-sub"><li>Sesgo, seguridad, alucinaciones; adopción responsable; caso.</li></ul></span></li></ol></div>
@@ -103,7 +117,7 @@ footer a{color:var(--acc);text-decoration:none}
  <div class="f"><div class="n">USD $2,150 + TAX</div><div class="l">Inversión</div></div>
  </div>
  
-</section>
+</section><section class="sec cc-sec" id="paraquien"><div class="wrap"><div class="cc-grid"><div><div class="cc-h">Para qui&eacute;n es este curso</div><ul class="cc-li"><li>CCO / CRO, innovación y transformación digital de crédito.</li><li>Data science, MLOps y model risk.</li><li>Fintechs, bancos digitales y financieras que compiten por tecnología.</li><li>Reguladores y auditores de modelos.</li></ul></div><div class="cc-card"><div class="cc-h">Por qu&eacute; importa</div><p class="cc-p">La IA generativa ya cambió el juego de la originación y la decisión. El CCO que sabe adoptar agentes y LLMs con gobernanza gana velocidad; el que no, se queda atrás o adopta riesgo ciego.</p></div></div></div></section>
 <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/intlTelInput.min.js"></script>
 <script>
 const RM_CFG={id:"genaicredit",folleto:"",paypal:"https://bffdsgvgcvmojobfiuay.supabase.co/functions/v1/paypal-pay?curso=genaicredit",stripe:"https://buy.stripe.com/14A9ALbzF06kg774MV2Rz3j"};
